@@ -372,7 +372,7 @@ figcaption {
 .text-size-large {
   letter-spacing: 0.05em;
   font-size: 3rem;
-  /* line-height: 1.2; */
+  line-height: 1.2;
 }
 
 .text-size-large.text-color-gray800 {
@@ -3101,7 +3101,7 @@ figcaption {
 
   .text-size-large {
     font-size: 1.75rem;
-    /* line-height: 1.5; */
+    line-height: 1.5;
   }
 
   .text-size-regular {
@@ -3499,7 +3499,7 @@ figcaption {
 
   .padding-layout .text-size-large.text-color-gray800.ed {
     font-size: 1.4rem;
-    line-height: 2.5em;
+    /* line-height: 2.5em; */
   }
 
   .show-mobile-portrait {
