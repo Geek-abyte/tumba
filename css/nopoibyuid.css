@@ -1173,7 +1173,7 @@ figcaption {
 }
 
 .text-color-primary-blue {
-  color: var(--brand-blue)
+  color: var(--brand-blue);
 }
 
 .text-color-gradient {
@@ -3010,6 +3010,7 @@ figcaption {
     order: -1;
     max-width: 45%;
     margin-bottom: 20px;
+    margin-top: 40px;
   }
 
   .hero-txt {
