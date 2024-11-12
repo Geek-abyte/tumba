@@ -376,7 +376,7 @@ figcaption {
 }
 
 .text-size-large.text-color-gray800 {
-  display: inline;
+  /* display: inline; */
 }
 
 .icon-medium {
@@ -3497,8 +3497,8 @@ figcaption {
     font-size: 3rem;
   }
 
-  .padding-layout .text-size-large.text-color-gray800.ed {
-    font-size: 1.2rem;
+  .text-size-large.text-color-gray800.ed {
+    font-size: 1.5rem;
     /* line-height: 2.5em; */
   }
 
@@ -3837,4 +3837,13 @@ figcaption {
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+}
+
+.ed {
+  list-style-type: disc;
+  padding-left: 40px;
+}
+
+.ed li {
+  padding-left: 10px;
 }
