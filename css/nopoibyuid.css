@@ -2365,6 +2365,10 @@ figcaption {
 
 .hero-ch-img {
   max-width: 40%;
+  position: relative;
+  top: -120px;
+  left: -50px;
+  transform: rotate(15deg);
 }
 
 .hero-txt {
