@@ -3015,6 +3015,11 @@ figcaption {
     max-width: 45%;
     margin-bottom: 20px;
     margin-top: 40px;
+
+    position: unset;
+    top: unset;
+    left: unset;
+    transform: rotate(15deg);
   }
 
   .hero-txt {
