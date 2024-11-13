@@ -214,9 +214,9 @@
                   <div class="padding-bottom padding-small"></div>
                 </nav>
               </div>
-              <a href="#services" class="navbar_link show-tablet w-nav-link"
+              <!-- <a href="#services" class="navbar_link show-tablet w-nav-link"
                 >Services</a
-              >
+              > -->
               <a href="#about" class="navbar_link w-nav-link">About</a>
               <a href="#tokenomics" class="navbar_link w-nav-link"
                 >Tokenomics</a
@@ -457,43 +457,6 @@
                       </div>
                     </div>
                   </div>
-                  <!-- <div
-                    id="w-node-acb23747-7a9a-f17d-2786-660976eb2de8-1b1caa2c"
-                    class="card is-black"
-                  >
-                    <div
-                      id="w-node-_553dce78-601d-8437-b5b5-3bcf1c856c56-1b1caa2c"
-                      class="tweet-1 w-embed w-script"
-                    >
-                      <blockquote class="twitter-tweet">
-                        <p lang="en" dir="ltr">
-                          There&#39;s been a lot of discussion about my cat Nola
-                          recently and I&#39;d like to address some things;
-                          NOTE: neither me nor
-                          <a
-                            href="https://twitter.com/OffchainLabs?ref_src=twsrc%5Etfw"
-                            >@Offchainlabs</a
-                          >
-                          are connected to any Nola-based tokens - no
-                          affiliation, sponsorship or endorsement. DYOR :)<br /><br />1.
-                          Although she has been portrayed glowingly on the…
-                          <a href="https://t.co/xVliUWZFMq"
-                            >pic.twitter.com/xVliUWZFMq</a
-                          >
-                        </p>
-                        &mdash; Harry Kalodner (💙,💙) (@hkalodner)
-                        <a
-                          href="https://twitter.com/hkalodner/status/1736809304055820289?ref_src=twsrc%5Etfw"
-                          >December 18, 2023</a
-                        >
-                      </blockquote>
-                      <script
-                        async
-                        src="https://platform.twitter.com/widgets.js"
-                        charset="utf-8"
-                      ></script>
-                    </div>
-                  </div> -->
                 </div>
                 <div class="padding-bottom padding-xlarge"></div>
                 <div class="ca-img-cont">
@@ -1160,9 +1123,10 @@
           $("#copyThis-3").attr("value", `${contractAddress}`);
           $(".c2c-txt").text(`${contractAddress}`);
           $(".c2c-txt.tablet").text(
-            `${contractAddress.substring(0, 5)}.....${contractAddress.slice(
-              -4
-            )}`
+            // `${contractAddress.substring(0, 5)}.....${contractAddress.slice(
+            //   -4
+            // )}`
+            contractAddress
           );
           $("#iframe-chart").attr(
             "src",
