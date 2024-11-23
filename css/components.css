@@ -1475,6 +1475,7 @@ textarea.w-select {
   grid-column-end: 2;
   grid-row-end: 2;
 }
+
 .w-richtext:after {
   clear: both;
 }

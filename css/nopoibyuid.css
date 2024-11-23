@@ -1105,7 +1105,7 @@ figcaption {
 }
 
 .navbar_link.w--current {
-  color: var(--gray-900);
+  color: var(--secondary-brand-color);
 }
 
 .navbar_link.w--current:hover {
@@ -2370,11 +2370,10 @@ figcaption {
 }
 
 .hero-ch-img {
-  max-width: 40%;
+  max-width: 30%;
   position: relative;
-  top: -120px;
+  top: -20px;
   left: -50px;
-  transform: rotate(15deg);
 }
 
 .hero-txt {
@@ -3852,4 +3851,63 @@ figcaption {
 
 .ed li {
   padding-left: 10px;
+}
+
+/* Countdown Timer Styling */
+#countdown-timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#timer {
+  display: flex;
+  gap: 15px;
+  font-family: "Arial", sans-serif;
+  font-size: 2.5rem; /* Increased from 2rem */
+  color: #ffffff; /* Sets the text color to white */
+  font-weight: bold; /* Makes the text bold */
+  text-align: center; /* Centers the text within the timer */
+}
+
+#timer span {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  padding: 15px 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #fff;
+  min-width: 80px;
+  position: relative;
+  overflow: hidden;
+  font-size: 2.5rem; /* Increased from 2rem */
+}
+
+#timer span .label {
+  display: block;
+  font-size: 0.75rem;
+  color: #e0e0e0;
+  margin-top: 5px;
+}
+
+/* Optional: Add a subtle animation */
+#timer span {
+  transition: transform 0.3s ease;
+}
+
+#timer span:hover {
+  transform: scale(1.05);
+}
+
+/* Style the labels (Days, Hours, Minutes, Seconds) */
+#timer .label {
+  color: #ffffff; /* Sets the label text color to white */
+  font-size: 0.85rem; /* Increased from 0.8rem */
+}
+
+/* Optional: Add a subtle text shadow for better readability */
+#timer,
+#timer .label {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
